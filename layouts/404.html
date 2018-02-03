@@ -1,5 +1,18 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <!-- header part -->
+    {{ partial "header.html" . }}
+</head>
+<body lang="{{ .Site.LanguageCode }}">
+    <div class="container">
+        {{ partial "error.html" . }}
 
-{{ partial "error.html" . }}
+        <!-- copyright part -->
+        {{ partial "sub_footer.html" . }}
+    </div>
 
-{{ partial "footer.html" . }}
+    <!-- some external JavaScript scripts -->
+    {{ partial "footer.html" . }}
+</body>
+</html>

@@ -10,6 +10,11 @@ Goa is a clean, simple and minimalist theme for blogs and personal websites.
 [![GitHub forks](https://img.shields.io/github/forks/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/network)
 [![quality badge](https://img.shields.io/badge/cuteness-overload-blue.svg?style=flat-square)](http://www.emergencykitten.com/)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/shenoybr/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
+## Warning
+
+**DON'T USE IT IN PRODUCTION CODE** because I forked this repo just to refactor its code to fit personal need.
+
 ## Demo
 
 You can find the demo site in action [here](https://shenoybr.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoybr/hugo-goa-demo).

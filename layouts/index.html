@@ -1,11 +1,27 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <!-- header part -->
+    {{ partial "header.html" . }}
+</head>
 
-{{ partial "avatar.html" . }}
+<body lang="{{ .Site.LanguageCode }}">
+    <div class="container">
 
-{{ partial "info.html" . }}
+        {{ partial "avatar.html" . }}
 
-{{ partial "social.html" . }}
+        {{ partial "info.html" . }}
 
-{{ partial "main_menu.html" . }}
+        {{ partial "social.html" . }}
 
-{{ partial "footer.html" . }}
+        {{ partial "main_menu.html" . }}
+
+        <!-- copyright part -->
+        {{ partial "sub_footer.html" . }}
+    </div>
+
+    <!-- some external JavaScript scripts -->
+    {{ partial "footer.html" . }}
+</body>
+</html>
+

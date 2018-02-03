@@ -1,7 +1,23 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <!-- header part -->
+    {{ partial "header.html" . }}
+</head>
 
-{{ partial "li.html" . }}
+<body lang="{{ .Site.LanguageCode }}">
+    <div class="container">
+        <!-- list part -->
+        {{ partial "li.html" . }}
 
-{{ partial "menu.html" . }}
+        <!-- navigation bar part -->
+        {{ partial "menu.html" . }}
 
-{{ partial "footer.html" . }}
+        <!-- copyright part -->
+        {{ partial "sub_footer.html" . }}
+    </div>
+
+    <!-- some external JavaScript scripts -->
+    {{ partial "footer.html" . }}
+</body>
+</html>
